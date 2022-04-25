@@ -1,0 +1,14 @@
+@import "../root.scss";
+
+.overviewCardContainer {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: $spacing-05;
+  margin: 0 $spacing-05 $spacing-05 $spacing-05;
+}
+
+:global(.omrs-breakpoint-gt-tablet) .overviewCardContainer {
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+}

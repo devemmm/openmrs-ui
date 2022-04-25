@@ -1,0 +1,14 @@
+[
+  "i18next",
+  "dayjs",
+  "react",
+  "react-dom",
+  "react-router-dom",
+  "react-i18next",
+  "single-spa",
+  "@openmrs/esm-framework",
+  "@openmrs/esm-framework/src/internal",
+  "carbon-components",
+  "carbon-icons",
+  "rxjs"
+]

@@ -1,0 +1,108 @@
+@import "../root.scss";
+
+.locationPickerContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+}
+
+.locationCard {
+  display: flex;
+  flex-direction: column;
+  width: 23rem;
+  background-color: $ui-background;
+  margin: 0;
+  padding: 1.5rem;
+  border: 1px solid $ui-03;
+}
+
+.welcomeTitle {
+  @extend .productiveHeading03;
+  text-transform: capitalize;
+}
+
+.searchBox {
+  margin-top: 1rem;
+}
+
+.welcomeMessage {
+  @extend .bodyLong01;
+  margin-top: 0.5rem;
+  color: $color-gray-70;
+}
+
+.searchResults {
+  @extend .bodyShort02;
+  margin: 1rem 0rem;
+  max-height: 100%;
+  overflow-y: auto;
+}
+
+.resultsCount {
+  @extend .bodyShort01;
+  color: $color-gray-70;
+}
+
+.locationResultsContainer {
+  display: flex;
+  overflow-y: auto;
+  margin-top: 0.5rem;
+}
+
+.locationRadioButton {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  @extend .bodyShort01;
+  padding: 0.5rem 0rem;
+  text-align: left;
+  width: 18rem;
+}
+
+.locationNotFound {
+  @extend .bodyShort01;
+  padding: 1rem 0rem;
+  color: $color-gray-70;
+}
+
+.confirmButton button {
+  width: 20rem;
+}
+
+.radioButtonSkeleton {
+  margin-right: 0 !important;
+  margin-bottom: $spacing-05;
+}
+
+.radioButtonSkeleton span {
+  width: 100% !important;
+}
+
+.pagination {
+  background-color: $ui-01;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: $spacing-05;
+  border: 2px solid $ui-03;
+}
+
+.pagination > button:first-child,
+pagination > button:first-child:hover {
+  border-right: 2px solid $ui-03;
+}
+
+.pagination > button,
+.pagination > button:hover {
+  border-left: 2px solid $ui-03;
+}
+
+.loadingIcon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: $spacing-05;
+}

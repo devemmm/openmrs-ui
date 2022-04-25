@@ -1,0 +1,19 @@
+@import "~carbon-components/scss/globals/scss/vendor/@carbon/elements/scss/type/styles";
+@import "~carbon-components/src/globals/scss/vendor/@carbon/layout/scss/generated/spacing";
+@import "~@openmrs/esm-styleguide/src/vars";
+
+.productiveHeading01 {
+  @include carbon--type-style("productive-heading-01");
+}
+
+.productiveHeading02 {
+  @include carbon--type-style("productive-heading-02");
+}
+
+.bodyShort01 {
+  @include carbon--type-style("body-short-01");
+}
+
+.toolStyles {
+  background-color: transparent;
+}
