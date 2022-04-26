@@ -159,4 +159,6 @@ The tag should be prefixed with `v` (e.g., `v3.2.1`), while the release title
 should just be the version number (e.g., `3.2.1`). The creation of the GitHub release
 will cause GitHub Actions to publish the packages, completing the release process.
 
+test
+
 > Don't run `npm publish`, `yarn publish`, or `lerna publish`. Use the above process.
